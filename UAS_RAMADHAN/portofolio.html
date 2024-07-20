@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - rammart</title>
+    <link rel="shortcut icon" href="img/srtct-icon2.jpg">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <nav class="sidebar">
+    <div class="logo-menu">
+      <h2 class="logo">rammart</h2>
+      <i class='bx bx-menu toggle-btn'></i>
+    </div>
+
+    <ul class="list">
+      <li class="list-item">
+        <a href="index.html">
+          <i class='bx bxs-home'></i>
+          <span class="link-name" style="--i:1;">Home</span>
+        </a>
+      </li>
+      <li class="list-item">
+        <a href="news.html">
+          <i class='bx bx-news'></i>
+          <span class="link-name" style="--i:2;">News</span>
+        </a>
+      </li>
+      <li class="list-item  active">
+        <a href="portofolio.html">
+          <i class='bx bxs-user'></i>
+          <span class="link-name" style="--i:3;">Portofolio</span>
+        </a>
+      </li>
+      <li class="list-item">
+        <a href="about.html">
+          <i class='bx bx-message-alt-error'></i>
+          <span class="link-name" style="--i:4;">About</span>
+        </a>
+      </li>
+      <li class="list-item">
+        <a href="faq.html">
+          <i class='bx bx-chat'></i>
+          <span class="link-name" style="--i:5;">Faq</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="featured-name">
+    <h1>I'm <span class="typedText"></span></h1>
+    <p class="p-porto">Halo Semua 👋, Perkenalkan</p>
+    <p class="p-porto2">Saya mahasiswa STMIK Antar Bangsa Semester 2, saya lahir di Sukabumi dan sekarang bertempat tinggal di Karang Tengah, Ciledug. Hobby saya menghayal dan suka sekali sesuatu yang hal yang baru.<br><br>Belajar pemrograman itu mudah dan menyenangkan bukan. <span>Bukan!</span></p>
+  </div>
+
+  <div class="featured-img">
+    <div class="circle-porto"></div>
+    <img class="img-porto" src="img/porto-img2.png" alt="img-porto">
+  </div>
+
+  <!-- script file -->
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('.typedText', {
+      strings : ["Designer..","Student..","Developer..","Ramadhan.."],
+      typeSpeed : 100,
+      backSpeed : 150,
+      loop : true
+    });
+  </script>
+</body>
+</html>
